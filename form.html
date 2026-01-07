@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <style>
+        form .basic_info label {
+            display: flex;
+        }
+        form .importent_info label {
+            display: inline;
+        }
+
+         form fieldset {
+           border: solid;
+           display: block;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <form >
+                <fieldset class="basic_info">
+                    <legend>Basic info</legend>
+                    <label for="name">Name</label>
+                    <input type="text"  id="name">
+                    <label for="pass">Password</label>
+                    <input type="password"  id="pass">
+                </fieldset>
+                
+                <fieldset class="importent_info">
+                    <legend>importent info</legend>
+                    <label for="pitha">pitha</label>
+                    <input type="checkbox" name="item" id="pitha">
+
+                    <label for="vorta">vorta</label>
+                    <input type="checkbox" name="item" id="vorta">
+
+                    <label for="pani">pani</label>
+                    <input type="checkbox" name="item" id="pani">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select one</legend>
+                    <label for="peper">Peper</label>
+                    <input type="radio" id="peper" name="select">
+
+                    <label for="book">Book</label>
+                    <input type="radio" id="book" name="select">
+
+                    <label for="pen">Pen</label>
+                    <input type="radio" id="pen" name="select">
+                </fieldset>
+                
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
