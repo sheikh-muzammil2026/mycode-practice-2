@@ -120,23 +120,61 @@ nav ul li a{
     /* display: flex;
     flex-wrap: wrap;
     align-items: center; */
-    border: 2px solid green;
-    padding: 131px 157px ;
-    margin: 130px 230px;
+    /* border: 2px solid #008000; */
+    margin-top: 130px;
+   
+  
    
 }
 
+.about-container {
+    /* border: #FD6E0A 1px solid; */
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+     text-align: center;
+     background-color: #FFF8F3;
+    padding: 131px 157px ;
+
+}
 .about-container h2 {
-    font: 35px #181818 bold;
-    text-align: center;
+    font-size: 35px ;
+    color: #181818;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 
 .about-container p {
     color: #757575;
-    font: 18px;
+   font-size:  18px;
     line-height: 30px;
+   
+    
 }
+
+.about-info {
+    max-width: 782px;
+    /* border: #FD6E0A 1px solid; */
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.info-card p {
+    /* border: #FD6E0A 1px solid; */
+     font-size: 20px;
+     line-height: 30px;
+   
+}
+
+.info-card h4{
+  font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+  margin: 0px; 
+}
+
 
 
 
