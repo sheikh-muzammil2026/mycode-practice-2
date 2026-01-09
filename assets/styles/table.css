@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.table-border {
+    border: 5px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+  
+}
+
