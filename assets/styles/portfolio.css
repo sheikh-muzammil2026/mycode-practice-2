@@ -116,5 +116,28 @@ nav ul li a{
    vertical-align: middle;   নতুন বিষয়
 } */
 
+.about {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+    border: 2px solid green;
+    padding: 131px 157px ;
+    margin: 130px 230px;
+   
+}
+
+.about-container h2 {
+    font: 35px #181818 bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-container p {
+    color: #757575;
+    font: 18px;
+    line-height: 30px;
+}
+
+
 
 
