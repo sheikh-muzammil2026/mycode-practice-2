@@ -63,28 +63,36 @@ nav ul li a{
     cursor: pointer;
 }
 
-.btn2 {
+.btn:hover {
+    color: red;
+    background-color: yellow;
+}
+
+ .btn2 {
     color: #FD6E0A;
     padding: 18px 36px;
     border-radius: 5px ;
     border:   #FD6E0A 1px solid;
     font-size: 20px ;
     font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
 }
 
-.benner-content h2{
+.bannerr-content h2{
     font-size: 45px ;
     font-weight: 600;
     color: #474747;
+   
 }
 
-.benner-content h1 {
+.banner-content h1 {
     font-size: 85px;
     font-weight: bold;
    
     
 }
-.benner-content p{
+.banner-content p{
     width: 584px;
     font-size: 18px;
     color: #757575;
@@ -92,11 +100,9 @@ nav ul li a{
     line-height: 30px;   /* নতুন বিষয়*/
 }
 
-.benner-btn {
-    margin-top: 30px;
-}
 
-.benner {
+
+.banner {
     /* border: 2px solid green; */
     display: flex;
     margin: 46px 38px 0 230px;
