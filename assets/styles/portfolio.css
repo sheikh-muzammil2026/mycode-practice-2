@@ -10,47 +10,61 @@
   
 }
 
+
+/* ============== header section =============== */
+
 header {
+   
     background-color: #FFF8F3;
     /* বেকগ্রাউন্ড ইমেইজ অ্যাড করার পরে বেকগ্রাউন্ড কালার চলে গেয়েছিল। ফিরিয়ে আনতে ইউআরএলের সাথে কমা দিয়ে বসিয়ে দেয়া হয়েছে। */
     padding-top: 51px;
-    background: url("../../images/developer.png"), url("../../images/header_bg.png"), #FFF8F3;
+    background: url("../images/prortfolio/developer.png"), url("../images/prortfolio/header_bg.png"), #FFF8F3;
     background-repeat: no-repeat;
     background-position: 23px 38px, bottom right ;
 }
 
-.logo {
-    font-size: 45px;
-    font-weight: 800;
-}
-nav {
-    /* border: 2px solid red; */
+
+/* =============== navbar ================= */
+
+
+.container{
     width: 71%;
     max-width: 1140px;
     display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 20px 0;
-   margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0px auto;
 }
-nav ul li {
-    list-style: none;
-  
+
+
+.container .logo {
+    font-size: 45px ;
+    font-weight: 600;
+    color: #474747;
+   
    
 }
-nav ul li a{
+
+ .container .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+
+
+.container .menu li {
+    list-style: none;   
+}
+
+
+.container .menu li a{
     text-decoration: none;
     color: #474747;
     font-size: 20px;
-
-
 }
- .menu {
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 51px;
-}
+
 
 .btn {
     background-color: #FD6E0A;
@@ -64,26 +78,26 @@ nav ul li a{
 }
 
 .btn:hover {
-    color: red;
+    color: black;
     background-color: yellow;
 }
 
- .btn2 {
-    color: #FD6E0A;
-    padding: 18px 36px;
-    border-radius: 5px ;
-    border:   #FD6E0A 1px solid;
-    font-size: 20px ;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 30px;
+/* =============== banner / hero ================= */
+
+
+
+.banner-container {
+   
+    display: flex;
+    margin: 46px 38px 0 230px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.bannerr-content h2{
-    font-size: 45px ;
-    font-weight: 600;
+.banner-content h2{
     color: #474747;
-   
+    font-size: 45px;
+    font-weight: 600;
 }
 
 .banner-content h1 {
@@ -102,55 +116,64 @@ nav ul li a{
 
 
 
-.banner {
-    /* border: 2px solid green; */
-    display: flex;
-    margin: 46px 38px 0 230px;
-    position: relative;
-    align-items: center;
-    justify-content: space-between;
-}
-/* 
-.benner-image {
-     background-image: url("../../images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position:absolute ;
-   background-position-x:center;
-   background-position-y: bottom;
-   max-width: 584pxs;
-   max-height: 676;
-   vertical-align: middle;   নতুন বিষয়
-} */
 
-.about {
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center; */
-    /* border: 2px solid #008000; */
-    margin-top: 130px;
-   
-  
-   
+ .banner-content .btn2 {
+    
+    gap: 10px;
+    color: #FD6E0A;
+    padding: 18px 36px;
+    border-radius: 5px ;
+    border:   #FD6E0A 1px solid;
+    font-size: 20px ;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
 }
+
+ .banner-content .btn2 i {
+    margin-right: 10px;
+ }
+
+.btn2:hover {
+    color: black;
+    background-color: yellow;
+}
+
+
+
+/* ============== about section =============== */
+.about{
+     padding-top: 130px;
+}
+
 
 .about-container {
-    /* border: #FD6E0A 1px solid; */
+   
     width: 71%;
     max-width: 1140px;
-    margin: 0px auto;
-     text-align: center;
+    text-align: center;
+   padding: 131px 156px ;
      background-color: #FFF8F3;
-    padding: 131px 157px ;
+     margin: 0 auto;
+    
 
 }
-.about-container h2 {
+
+.section-heading{
+    max-width: 827px;
+     margin: 0px auto;
+    
+}
+
+
+.section-heading h3 {
     font-size: 35px ;
     color: #181818;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.about-container p {
+.section-heading p {
     color: #757575;
    font-size:  18px;
     line-height: 30px;
@@ -158,8 +181,8 @@ nav ul li a{
     
 }
 
-.about-info {
-    max-width: 782px;
+.contact-info {
+    max-width: 827px;
     /* border: #FD6E0A 1px solid; */
     display: flex;
     margin-top: 30px;
@@ -186,3 +209,118 @@ nav ul li a{
 
 
 
+/* ==============skills section =============== */
+
+.skills{
+    padding-top: 130px;
+
+}
+
+.skills-container{
+    
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.section-heading{
+    max-width: 827px;
+     margin: 0px auto;
+    
+}
+
+.section-heading h3 {
+    font-size: 35px ;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-heading p {
+    color: #757575;
+   font-size:  18px;
+    line-height: 30px;
+      text-align: center;
+      margin-bottom: 50px;
+   
+    
+}
+
+
+
+.skill-box{
+   
+    display: flex;
+    gap: 24px;
+ 
+}
+
+.skills-card{
+     padding: 30px;
+     max-width: 267px;
+    
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #00000059;
+}
+
+.skill-box img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-box h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-box p{
+     color: #757575;
+   font-size:  16px;
+    line-height: 28px;
+
+}
+
+
+
+
+
+/* ==============skills section =============== */
+
+.resume{
+     padding-top: 130px;
+}
+
+
+.resume-container{
+     width: 71%;
+    max-width: 1140px;
+    display: flex;
+      margin: 113px auto 0;
+     gap: 24px ;
+}
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-container h3{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-container h4{
+    font-size: 25px;
+     color: #474747;
+      margin-bottom: 10px;
+      font-weight: 600;
+}
+
+.resume-container p{
+    color: #757575;
+    line-height: 28px;
+    font-size: 16px;
+}
+.resume-container hr{
+    margin: 30px 0px ;
+}
