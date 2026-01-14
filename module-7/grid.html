@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender</title>
+    <style>
+        .container {
+            width: 1600px;
+            display: grid;
+            /* practice-notes */
+            /* grid-template-columns: 200px 200px 200px 200px; */
+            /* grid-template-columns: auto 100px auto 50px auto 80px; */
+            grid-template-columns: repeat(7, 50px);
+            /* grid-template-columns: 100px 300px repeat(7, 50px) 200px;  */
+            /* grid-template-columns: 1fr 2fr 1fr; 3 column hobe, 1m column za pabe 2y vag er ceye 2 digun pabe.last vag */
+           
+
+            /* grid-column-gap: 10px; prottek column er mahe gap*/
+            /* grid-row-gap: 10px; prottek row er majhe gap*/
+            /* gap: 10px;  row and column uvoy dike gap*/
+            /* grid-gap: 10px 10px; row and column uvoy dikei gap*/
+
+            /* grid-template-rows: repeat(31, 50px); 31 ta row er uccona 50px kore hobe*/
+            /* grid-template-rows: repeat(7, 50px); shudhu 1st 7 ta row er uccota hobe 50px , bakigulute kichui hobe na.  */
+        }
+        .date {
+            border: 1px solid green;
+            border-radius: 5px;
+        }
+        /* .notes {
+            text-align: center;
+        } */
+    </style>
+</head>
+<body class="container">
+   <!-- 1)  grid 2d flex 1d
+   2) grid ekta init command . erpore command diye diye kaj sajate hy. -->
+  
+   <div class="date">1</div>
+   <div class="date">2</div>
+   <div class="date">3</div>
+   <div class="date">4</div>
+   <div class="date">5</div>
+   <div class="date">6</div>
+   <div class="date">7</div>
+   <div class="date">8</div>
+   <div class="date">9</div>
+   <div class="date">10</div>
+   <div class="date">11</div>
+   <div class="date">12</div>
+   <div class="date">13</div>
+   <div class="date">14</div>
+   <div class="date">15</div>
+   <div class="date">16</div>
+   <div class="date">17</div>
+   <div class="date">18</div>
+   <div class="date">19</div>
+   <div class="date">20</div>
+   <div class="date">21</div>
+   <div class="date">22</div>
+   <div class="date">23</div>
+   <div class="date">24</div>
+   <div class="date">25</div>
+   <div class="date">26</div>
+   <div class="date">27</div>
+   <div class="date">28</div>
+   <div class="date">29</div>
+   <div class="date">30</div>
+   <div class="date">31</div>
+
+   <!-- <div class="notes">
+    <p>
+                     /* practice-notes */
+            /* grid-template-columns: 200px 200px 200px 200px;   4 ta column, sokoler porimap 200px*/
+            /* grid-template-columns: auto 100px auto 50px auto 80px;  2nd column 100px, 4th column 50px, 6th column 80px, ei 3tar jayga neyar pore baki za thakbe sob baki vagavagi kore niye nibe 1st, 3rd and 5th column.*/
+            /* grid-template-columns: repeat(7, 50px); 7 ta column create kora, sokol column 50px */
+            /* grid-template-columns: 100px 300px repeat(7, 50px) 200px;   1st column 100px, 2nd column 300px, last column 200px */
+            /* grid-template-columns: repeat(7, 1fr); 7ta column hobe. sbai soman jayga nibe. */
+    </p>
+   </div> -->
+</body>
+</html>

@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.font-family {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+header {
+    background-color: #FFF8F3;
+    /* বেকগ্রাউন্ড ইমেইজ অ্যাড করার পরে বেকগ্রাউন্ড কালার চলে গেয়েছিল। ফিরিয়ে আনতে ইউআরএলের সাথে কমা দিয়ে বসিয়ে দেয়া হয়েছে। */
+    padding-top: 51px;
+    background: url("../../images/developer.png"), url("../../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px 38px, bottom right ;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: 800;
+}
+nav {
+    /* border: 2px solid red; */
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+   margin: 0px auto;
+}
+nav ul li {
+    list-style: none;
+  
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+
+
+}
+ .menu {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 51px;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px ;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    background-color: yellow;
+}
+
+ .btn2 {
+    color: #FD6E0A;
+    padding: 18px 36px;
+    border-radius: 5px ;
+    border:   #FD6E0A 1px solid;
+    font-size: 20px ;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.bannerr-content h2{
+    font-size: 45px ;
+    font-weight: 600;
+    color: #474747;
+   
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+   
+    
+}
+.banner-content p{
+    width: 584px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;   /* নতুন বিষয়*/
+}
+
+
+
+.banner {
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 46px 38px 0 230px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 
+.benner-image {
+     background-image: url("../../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:absolute ;
+   background-position-x:center;
+   background-position-y: bottom;
+   max-width: 584pxs;
+   max-height: 676;
+   vertical-align: middle;   নতুন বিষয়
+} */
+
+.about {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+    /* border: 2px solid #008000; */
+    margin-top: 130px;
+   
+  
+   
+}
+
+.about-container {
+    /* border: #FD6E0A 1px solid; */
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+     text-align: center;
+     background-color: #FFF8F3;
+    padding: 131px 157px ;
+
+}
+.about-container h2 {
+    font-size: 35px ;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-container p {
+    color: #757575;
+   font-size:  18px;
+    line-height: 30px;
+   
+    
+}
+
+.about-info {
+    max-width: 782px;
+    /* border: #FD6E0A 1px solid; */
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.info-card p {
+    /* border: #FD6E0A 1px solid; */
+     font-size: 20px;
+     line-height: 30px;
+   
+}
+
+.info-card h4{
+  font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+  margin: 0px; 
+}
+
+
+
+
+
+
