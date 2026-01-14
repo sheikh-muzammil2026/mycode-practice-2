@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex layout using grid area</title>
+    <style>
+        .container>*{  /* পুরো body te noy, abar sob child eo noy, borong immediate / direct child er moddhe kaj */
+        border: 1px solid green;
+        background-color: blanchedalmond;
+        padding: 30px;
+       
+        
+       }
+
+       header{
+        grid-area: header;
+       }
+       nav{
+        grid-area: navbar;
+       }
+       main{
+        grid-area: main;
+       }
+       #sidebar{
+        grid-area: sidebar;
+       }
+       #advertise{
+        grid-area: advertise;
+       }
+       footer{
+        grid-area: footer;
+       }
+
+       
+       .container{
+         display: grid;
+        gap: 20px;
+        grid-template-areas: 
+        "header header header header"
+        "navbar main main sidebar"
+        "navbar main main advertise"
+        "footer footer footer footer"
+        ;
+       }
+    </style>
+</head>
+<body  class="container">
+
+        <header>
+            <h3>The Header</h3>
+        </header>
+
+        <nav>
+          <ul>
+            <li><a href="">nav menu</a></li>
+            <li><a href="">nav menu</a></li>
+            <li><a href="">nav menu</a></li>
+          </ul>
+        </nav>
+
+        <main>
+            <h1>This is main artical area</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates at saepe voluptas a velit consequuntur qui culpa quidem nam ut, obcaecati sed. Optio consequatur animi, at, assumenda hic ut nesciunt voluptates blanditiis fugit porro eum repellat provident aut laboriosam esse praesentium quaerat repudiandae molestias nihil magnam pariatur dolore dolorem! Asperiores.</p>
+        </main>
+
+        <aside id="sidebar">
+                <h2>The sidbar</h2>
+        </aside>
+        <aside id="advertise">
+           <h2>advertises</h2>
+        </aside>
+
+        <footer>
+           <p>The footer</p>
+        </footer>
+   
+</body>
+</html>
