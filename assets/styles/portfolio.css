@@ -21,7 +21,7 @@ header {
     background: url("../images/prortfolio/developer.png"), url("../images/prortfolio/header_bg.png"), #FFF8F3;
     background-repeat: no-repeat;
     background-position: 23px 38px, bottom right ;
-}
+}                                                                     
 
 
 /* =============== navbar ================= */
@@ -102,6 +102,7 @@ header {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .banner-content h1 {
@@ -111,7 +112,7 @@ header {
     
 }
 .banner-content p{
-    width: 584px;
+    max-width: 584px;    /* lekha zokhon bere gelo, tokhon tuitor ei width ta diyechen. fole lekha thik hoye geche*/
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
@@ -143,6 +144,10 @@ header {
     background-color: yellow;
 }
 
+.banner-container .banner-image img {
+    max-width: 584px; 
+    vertical-align: middle;  /*image er nic theke gap bad dite ei kaj kora hoyeche */
+}
 
 
 /* ============== about section =============== */
@@ -151,12 +156,12 @@ header {
 }
 
 
-.about-container {
+.about .about-container {
    
     width: 71%;
     max-width: 1140px;
     text-align: center;
-   padding: 131px 156px ;
+     padding: 131px 156px ;
      background-color: #FFF8F3;
      margin: 0 auto;
     
