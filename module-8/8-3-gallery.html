@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery using grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 200px);
+            gap: 20px;
+        }
+        .container img{
+            width: 100%;
+            height: 100%;
+        }
+        .big-layout{
+            grid-column: span 6;
+            grid-row: span 2;
+        }
+        .normal-layout{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .wid-layout{
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="big-layout">
+            <img src="../assets/images/responsive-layout-example/A.jpg" alt="">
+        </div>
+        <div class="normal-layout">
+            <img src="../assets/images/responsive-layout-example/B.jpg" alt="">
+        </div>
+        <div  class="normal-layout">
+            <img src="../assets/images/responsive-layout-example/C.jpg" alt="">
+        </div>
+        <div class="wid-layout">
+            <img src="../assets/images/responsive-layout-example/D.jpg" alt="">
+        </div>
+        <div class="wid-layout">
+            <img src="../assets/images/responsive-layout-example/E.jpg" alt="">
+        </div>
+        <div class="normal-layout">
+            <img src="../assets/images/responsive-layout-example/F.jpg" alt="">
+        </div>
+         <div id="multi" class="image">
+            <img src="../assets/images/responsive-layout-example/G.jpg" alt="">
+        </div>
+         <div id="multi" class="image">
+            <img src="../assets/images/responsive-layout-example/G.jpg" alt="">
+        </div>
+      
+         <div class="normal-layout">
+            <img src="../assets/images/responsive-layout-example/I.jpg" alt="">
+        </div>
+           <div id="multi" class="image">
+            <img src="../assets/images/responsive-layout-example/G.jpg" alt="">
+        </div>
+         <div class="image">
+            <img src="../assets/images/responsive-layout-example/G.jpg" alt="">
+        </div>
+        
+    </div>
+</body>
+</html>
