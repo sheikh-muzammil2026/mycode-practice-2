@@ -37,6 +37,7 @@ header {
     margin: 0px auto;
 }
 
+.highlight { color: #FD6E0A; }
 
 .container .logo {
     font-size: 45px ;
@@ -203,14 +204,15 @@ header {
     /* border: #FD6E0A 1px solid; */
      font-size: 20px;
      line-height: 30px;
+     color: #757575;
    
 }
 
 .info-card h4{
-  font-size: 20px;
+    font-size: 20px;
     line-height: 30px;
-    font-weight: bold;
-  margin: 0px; 
+   
+    
 }
 
 
@@ -340,22 +342,24 @@ header {
 }
 
 
-/* ==============skills section =============== */
+
+
+
+/* ============== footer section =============== */
 
 .footer {
   margin-top: 113px;
   background-color: #FFF8F3;
 
-   /* border: 1px solid red; */
 }
 
 .footer-container{
     width: 71%;
     max-width: 1140px;
     display: flex;
-   margin: 0 auto;
-   gap: 117px;
-   padding: 130px 0px;
+    margin: 0 auto;
+    gap: 117px;
+    padding: 130px 0px;
       
     
 }
@@ -364,6 +368,9 @@ header {
     font-size: 35px;
     margin-bottom: 20px;
 }
+
+
+
 
 .footer-container .social{
     max-width: 562px;
@@ -386,7 +393,7 @@ header {
     max-width: 562px;
 }
 
-.footer-container .contact input[type=text], .footer-container .contact textarea{
+.footer-container .contact input[type="text"], .footer-container .contact textarea{
     /* border: 1px solid red; */
    width: 461px;
     padding: 18px 30px;
@@ -395,4 +402,28 @@ header {
     color: #757575;
     margin-bottom: 24px;
 
+}
+
+
+.hide {
+    display: none !important;
+}
+
+@media screen and (max-width: 576px) {
+    
+.footer {
+     width: 100%;
+  margin-top: 50px;
+  background-color: #FFF8F3;
+
+}
+
+.footer-container{
+    width: 100%;
+    flex-direction: column;
+    gap: 117px;
+    padding: 24px;
+      
+    
+}
 }
